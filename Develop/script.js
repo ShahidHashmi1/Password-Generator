@@ -150,7 +150,7 @@ copyBtn.addEventListener("click", function () {
 });
 
 copyBtn.onclick = function () {
-  copyTxt.onselect();
+  copyTxt.select();
 };
 
 // var copyBtn = document.querySelector("#password");
