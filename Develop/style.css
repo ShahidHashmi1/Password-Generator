@@ -1,3 +1,5 @@
+/* CSS code for Password Generator */
+
 *,
 *::before,
 *::after {
@@ -24,14 +26,16 @@ body {
 }
 
 header {
+  text-decoration: underline;
+  font-size: x-large;
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: solid black;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsla(0, 0%, 100%, 0.742);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -86,6 +90,7 @@ header {
   padding: 25px 40px;
   text-align: center;
   cursor: pointer;
+  text-shadow: 2px 2px 2px black;
 }
 
 button[disabled] {
@@ -116,6 +121,12 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+body h2 {
+  text-align: center;
+  color: rgb(220, 159, 74);
+  text-shadow: 1px 1px 1px black;
 }
 
 

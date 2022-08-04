@@ -1,4 +1,4 @@
-// Assignment code here
+// JS code for Password Generater
 
 var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 var upper = [
@@ -86,18 +86,12 @@ var userChoices = [];
 
 var passValues = [];
 
-//
-
 function generatePassword() {
-  // console.log("The button was clicked Morty!");
   var passwordLength = prompt("How long would you like your password to be?");
   if (passwordLength < 8 || passwordLength > 128) {
     alert(
       "Caution, your password must be at least 8 characters long, and less than 128 characters long."
     );
-    // if (isNaN(passwordLength)) {
-    //   alert("Please enter a numeric value.");
-    // }
     generatePassword();
   } else {
     var chooseNumbers = confirm("Do you want to include numbers?");
@@ -128,38 +122,42 @@ function generatePassword() {
       passValues.push(
         userChoices[Math.floor(Math.random() * userChoices.length)]
       );
-      // userChoices[Math.floor(Math.random() * userChoices.length)];
-      // passwordLength += index + userChoices;
-      // passwordText += generatePassword();
-      // return (password = finalPass);
-      // return (password +=
-      //   userChoices[Math.floor(Math.random() * userChoices.length)]);
-      // return (password =
-      //   userChoices[Math.floor(Math.random() * userChoices.length)]);
-      // password += userChoices(Object.values(Allowed).join(""));
-      // return (passwordText = userChoices); CLOSER! gave us all concat arrays in userChoices together
-      // return (passwordText = userChoices[passwordLength]); ...undefined again
-      // return (password += password + "");
-      // password += userChoices[""];
-      // return = password;
-      // return passwordText;
-      // return document.querySelector("#password");
     }
     return passValues.join("");
   }
 }
 
-// Get references to the #generate element
+//
+
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+  //
 
+  //
   passwordText.value = password;
 }
-
 generateBtn.addEventListener("click", writePassword);
+//
 
-// changing the header to orange color
+var copyTxt = document.getElementById("#password");
+var copyBtn = document.getElementById("#copytext");
+
+copyBtn.addEventListener("click", function () {
+  ClipboardEvent;
+});
+
+copyBtn.onclick = function () {
+  copyTxt.onselect();
+};
+
+// var copyBtn = document.querySelector("#password");
+
+// function copyPassword() {
+//   var password = generatePassword();
+//   var passwordText = document.querySelector("#password");
+
+//   passwordText.value = password;
+// }
