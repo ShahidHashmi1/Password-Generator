@@ -84,15 +84,20 @@ var special = [
 
 var userChoices = [];
 
+var passValues = [];
+
 //
 
 function generatePassword() {
-  console.log("The button was clicked Morty!");
+  // console.log("The button was clicked Morty!");
   var passwordLength = prompt("How long would you like your password to be?");
   if (passwordLength < 8 || passwordLength > 128) {
     alert(
-      "Caution, your password must be at least 8 characters long, and less than 128 characters long"
+      "Caution, your password must be at least 8 characters long, and less than 128 characters long."
     );
+    // if (isNaN(passwordLength)) {
+    //   alert("Please enter a numeric value.");
+    // }
     generatePassword();
   } else {
     var chooseNumbers = confirm("Do you want to include numbers?");
@@ -115,14 +120,32 @@ function generatePassword() {
       userChoices = userChoices.concat(special);
     }
     if (!chooseNumbers && !chooseLower && !chooseUpper && !chooseSpecial) {
-      alert("You must choose at least one characteristic");
+      alert("You must choose at least one characteristic.");
       generatePassword();
     }
 
     for (let index = 0; index < passwordLength; index++) {
-      userChoices[Math.floor(Math.random() * userChoices.length)];
-      password = password += [userChoices];
+      passValues.push(
+        userChoices[Math.floor(Math.random() * userChoices.length)]
+      );
+      // userChoices[Math.floor(Math.random() * userChoices.length)];
+      // passwordLength += index + userChoices;
+      // passwordText += generatePassword();
+      // return (password = finalPass);
+      // return (password +=
+      //   userChoices[Math.floor(Math.random() * userChoices.length)]);
+      // return (password =
+      //   userChoices[Math.floor(Math.random() * userChoices.length)]);
+      // password += userChoices(Object.values(Allowed).join(""));
+      // return (passwordText = userChoices); CLOSER! gave us all concat arrays in userChoices together
+      // return (passwordText = userChoices[passwordLength]); ...undefined again
+      // return (password += password + "");
+      // password += userChoices[""];
+      // return = password;
+      // return passwordText;
+      // return document.querySelector("#password");
     }
+    return passValues.join("");
   }
 }
 
@@ -139,4 +162,4 @@ function writePassword() {
 
 generateBtn.addEventListener("click", writePassword);
 
-//
+// changing the header to orange color
