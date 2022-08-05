@@ -134,30 +134,16 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-  //
 
-  //
   passwordText.value = password;
 }
 generateBtn.addEventListener("click", writePassword);
-//
 
-var copyTxt = document.getElementById("#password");
-var copyBtn = document.getElementById("#copytext");
+// Copy Button events below:
 
-copyBtn.addEventListener("click", function () {
-  ClipboardEvent;
+var copyTxt = document.getElementById("password");
+var copyBtn = document.getElementById("copytext");
+
+copyBtn.addEventListener("click", function (event) {
+  navigator.clipboard.writeText(copyTxt.value);
 });
-
-copyBtn.onclick = function () {
-  copyTxt.select();
-};
-
-// var copyBtn = document.querySelector("#password");
-
-// function copyPassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password;
-// }

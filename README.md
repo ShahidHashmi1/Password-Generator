@@ -88,14 +88,24 @@ https://github.com/ShahidHashmi1...
 
 The collaborators on this project included my tutor, Sabrina Hanson, and my TA, Michael Kotte.
 
-The resources for this portfolio to reaffirm knowledge on semantic html as well as CSS styling were through [W3 Schools][1]. I drew a lot of inspiration from looking over other developer portfolios and seeing where they put their flex boxes, what colors they used, etc. That inspiration came from sites like [Hostinger-Tutorials][2] and [Alvarotrigo][3]. Lastly and as always, [Youtube][4] was a great resource for me personally when having issues with my flex boxes doing what they needed to be doing.
+The resources for this vary across different platforms. I used explored various methods of populating an empty array where the user-selected criteria would fit, but ultimately landed on concatenation as the methodology. That inspiration came from sites like [Hostinger-Tutorials][2] and [Alvarotrigo][3]. Lastly and as always, [Youtube][4] was a great resource for me personally when having issues with my flex boxes doing what they needed to be doing.
 
 If this text is not readable, please refer to the GitHub repository link I have provided above that will outline the exact URLs for these references.
 
-[1]: https://www.w3schools.com/html/html5_semantic_elements.asp "W3 Schools"
-[2]: https://www.hostinger.com/tutorials/web-developer-portfolio "Hostinger Tutorials"
-[3]: https://alvarotrigo.com/blog/web-developer-portfolio-examples/ "Alvarotrigo"
-[4]: https://www.youtube.com/watch?v=3YW65K6LcIA "Youtube"
+[1]: https://www.w3schools.com/js/js_loop_for.asp "W3 Schools"
+
+[2]:
+[3]:
+[4]: https://www.youtube.com/watch?v=NHg6jQajaMs "Youtube"
+
+https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
+https://stackoverflow.com/questions/1288095/append-to-string-variable
+https://javascript.plainenglish.io/three-ways-to-merge-arrays-in-javascript-27cef85fe67b concat
+https://www.w3schools.com/jsref/jsref_concat_array.asp concat
+https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event
+https://www.codegrepper.com/code-examples/javascript/copy+button+html
+https://dev.to/michaelburrows/copy-text-to-the-system-clipboard-on-click-with-javascript-1c0k
+https://codepen.io/shaikmaqsood/pen/XmydxJ
 
 ## License
 
