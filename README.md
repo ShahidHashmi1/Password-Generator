@@ -40,7 +40,7 @@ In order to begin this project, we must first have a code viewer - such as Visua
 Since we are relying heavily on the javascript here, it is important that we have the appropriate html code with proper IDs and classes labelled so that our javascript can funtion properly in use and in console.  
 </li>
 <li>
-Periodically making sure the project's updates and changes look correct in a live broswer is very important as well. Having a browser open to see the updates happening in live-time will allow you to receive a sort of visual feedback to tell what needs to be done next - outside of solely relying on what the code looks like.
+Periodically making sure the project's updates and changes look correct in a live broswer is very important as well. Having a browser open to see the updates happening in live-time will allow you to receive a visual feedback to tell what needs to be done next - outside of solely relying on what the code looks like.
 </li>
 </ol>
 
@@ -78,34 +78,32 @@ GIVEN I need a new, secure password
 
 The fully-deployed website for this password generator can be found through the following GitHub Pages link:
 
-https://shahidhashmi1.github...
+https://shahidhashmi1.github.io/Password-Generator/
 
 The associated html code, css stylesheet, and javascript for this assignment can be found at the following GitHub repository link:
 
-https://github.com/ShahidHashmi1...
+https://github.com/ShahidHashmi1/Password-Generator
 
 ## Credits
 
 The collaborators on this project included my tutor, Sabrina Hanson, and my TA, Michael Kotte.
 
-The resources for this vary across different platforms. I used explored various methods of populating an empty array where the user-selected criteria would fit, but ultimately landed on concatenation as the methodology. That inspiration came from sites like [Hostinger-Tutorials][2] and [Alvarotrigo][3]. Lastly and as always, [Youtube][4] was a great resource for me personally when having issues with my flex boxes doing what they needed to be doing.
+The resources for this vary across different platforms. I used explored various methods of populating an empty array where the user-selected criteria would fit, but ultimately landed on concatenation as the methodology. A few resources for implementing and concatenating arrays were [Javascript Plain English][2], [W3 Schools][3], and [Stack Overflow][5].
 
-If this text is not readable, please refer to the GitHub repository link I have provided above that will outline the exact URLs for these references.
+Some other things I had referenced, were different methods of utilizing a copy button so that the end-user may grab the password and copy to their clipboard for further use elsewhere. The references used are for this, and other concepts such as for loops - were places like [W3 Schools][1], [Youtube][4], [Stack Overflow][6], [MDN][7], [Code Grepper][8], [Dev To][9], and [Codepen][10].
 
 [1]: https://www.w3schools.com/js/js_loop_for.asp "W3 Schools"
-
-[2]:
-[3]:
+[2]: https://javascript.plainenglish.io/three-ways-to-merge-arrays-in-javascript-27cef85fe67b "Javascript Plain English"
+[3]: https://www.w3schools.com/jsref/jsref_concat_array.asp "W3 Schools"
 [4]: https://www.youtube.com/watch?v=NHg6jQajaMs "Youtube"
+[5]: https://stackoverflow.com/questions/1288095/append-to-string-variable "Stack Overflow"
+[6]: https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/ "Stack Overflow"
+[7]: https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event "MDN"
+[8]: https://www.codegrepper.com/code-examples/javascript/copy+button+html "Code Grepper"
+[9]: https://dev.to/michaelburrows/copy-text-to-the-system-clipboard-on-click-with-javascript-1c0k "Dev To"
+[10]: https://codepen.io/shaikmaqsood/pen/XmydxJ "Codepen"
 
-https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
-https://stackoverflow.com/questions/1288095/append-to-string-variable
-https://javascript.plainenglish.io/three-ways-to-merge-arrays-in-javascript-27cef85fe67b concat
-https://www.w3schools.com/jsref/jsref_concat_array.asp concat
-https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event
-https://www.codegrepper.com/code-examples/javascript/copy+button+html
-https://dev.to/michaelburrows/copy-text-to-the-system-clipboard-on-click-with-javascript-1c0k
-https://codepen.io/shaikmaqsood/pen/XmydxJ
+<p>If this text is not readable, please refer to the GitHub repository link I have provided above that will outline the exact URLs for these references.</p>
 
 ## License
 

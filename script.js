@@ -139,7 +139,7 @@ function writePassword() {
 }
 generateBtn.addEventListener("click", writePassword);
 
-// Copy Button events below:
+//
 
 var copyTxt = document.getElementById("password");
 var copyBtn = document.getElementById("copytext");
