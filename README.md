@@ -77,7 +77,7 @@ GIVEN I need a new, secure password
 
 The live website for this password generator can be found through the following GitHub Pages link:
 
-<a href="https://shahidhashmi1.github.io/Password-Generator/">Password Generator</a>
+<a href="https://shahidhashmi1.github.io/Password-Generator/" target="_blank">Password Generator</a>
 
 ## Credits
 
