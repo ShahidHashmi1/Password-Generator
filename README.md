@@ -9,9 +9,8 @@
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Mock Up](#mock-up)
-- [Submission](#submission)
+- [Deployment](#deployment)
 - [Credits](#credits)
-- [License](#license)
 
 ## Description
 
@@ -74,19 +73,13 @@ GIVEN I need a new, secure password
 
 ![Password Generator Webpage](./images/mockupimg.jpg)
 
-## SUBMISSION
+## Deployment
 
-The fully-deployed website for this password generator can be found through the following GitHub Pages link:
+The live website for this password generator can be found through the following GitHub Pages link:
 
-https://shahidhashmi1.github.io/Password-Generator/
-
-The associated html code, css stylesheet, and javascript for this assignment can be found at the following GitHub repository link:
-
-https://github.com/ShahidHashmi1/Password-Generator
+<a href="https://shahidhashmi1.github.io/Password-Generator/">Password Generator</a>
 
 ## Credits
-
-The collaborators on this project included my tutor, Sabrina Hanson, and my TA, Michael Kotte.
 
 The resources for this vary across different platforms. I used explored various methods of populating an empty array where the user-selected criteria would fit, but ultimately landed on concatenation as the methodology. A few resources for implementing and concatenating arrays were [Javascript Plain English][2], [W3 Schools][3], and [Stack Overflow][5].
 
@@ -102,9 +95,3 @@ Some other things I had referenced, were different methods of utilizing a copy b
 [8]: https://www.codegrepper.com/code-examples/javascript/copy+button+html "Code Grepper"
 [9]: https://dev.to/michaelburrows/copy-text-to-the-system-clipboard-on-click-with-javascript-1c0k "Dev To"
 [10]: https://codepen.io/shaikmaqsood/pen/XmydxJ "Codepen"
-
-<p>If this text is not readable, please refer to the GitHub repository link I have provided above that will outline the exact URLs for these references.</p>
-
-## License
-
-There are no licensing requirements.
